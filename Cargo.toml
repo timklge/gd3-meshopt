@@ -1,0 +1,7 @@
+[workspace]
+exclude = ["godot"]
+members = ["rust"]
+
+[profile.dev]
+opt-level = 1
+

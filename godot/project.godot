@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "",
+"class": "MeshOptimizer",
+"language": "NativeScript",
+"path": "res://native/meshoptimizer.gdns"
+} ]
+_global_script_class_icons={
+"MeshOptimizer": ""
+}
+
+[application]
+
+config/name="gd3-meshopt"
+run/main_scene="res://scenes/Game.tscn"
+
+[mono]
+
+project/assembly_name="gd3-meshopt"
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+environment/default_environment="res://default_env.tres"
